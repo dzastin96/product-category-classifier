@@ -7,18 +7,20 @@ The goal is to deliver an **audit‑ready, interpretable, and production‑ready
 
 ---
 
+## 📂 Project Structure
+
 product-category-classifier/
 ├── data/
-│   ├── final_product_data.pkl
-│   └── IMLP4_TASK_03-products.csv
+│   ├── final_product_data.pkl           # Cleaned and enriched dataset
+│   └── IMLP4_TASK_03-products.csv       # Raw input data
 ├── model/
-│   ├── train_model.py
-│   ├── predict_category.py
-│   └── product_classifier_model.pkl
-├── notebooks/
-│   ├── model_training.ipynb
-│   └── product_category_analysis.ipynb
-└── README.md
+│   ├── train_model.py                   # Feature engineering + model training
+│   ├── predict_category.py              # Interactive classifier for real-time predictions
+│   └── product_classifier_model.pkl     # Saved production model
+├── notebooks/  
+│   ├── model_training.ipynb             # Model benchmarking and evaluation
+│   └── product_category_analysis.ipynb  # Feature audits and distribution analysis
+└── README.md                            # Project documentation
 
 ---
 

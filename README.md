@@ -41,7 +41,7 @@ From each `product_title`, we extract:
 5. **Evaluation** → accuracy, macro F1, weighted F1, per‑class precision/recall (`model_training.ipynb`)
 6. **Model Selection** → choose best model based on balanced performance and deployment efficiency (`model_training.ipynb`)
 7. **Final Model Training** → Train model with best model *Support Vector Machine* (`train_model.py`)
-7. **Deployment** → interactive classifier (`predict_category.py`) for real‑time predictions
+8. **Deployment** → interactive classifier (`predict_category.py`) for real‑time predictions
 
 ---
 

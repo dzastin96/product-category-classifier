@@ -7,6 +7,15 @@ The goal is to deliver an **audit‑ready, interpretable, and production‑ready
 
 ---
 
+## ⚙️ Installation
+
+Clone the repository:
+
+git clone https://github.com/dzastin96/product-category-classifier.git
+cd product-category-classifier
+
+---
+
 ## 📂 Project Structure
 
 product-category-classifier/
